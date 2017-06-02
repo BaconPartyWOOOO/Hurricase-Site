@@ -3,3 +3,8 @@ var app = angular.module('hurricaseIndex', [
     'ngMaterial',
     'ngAnimate'
 ]);
+
+app.config(function ($mdThemingProvider) {
+    $mdThemingProvider.theme('default')
+        .primaryPalette('red');
+});

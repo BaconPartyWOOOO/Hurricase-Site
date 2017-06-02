@@ -18,12 +18,34 @@
     <script src='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.3/angular-material.js'></script>
 </head>
 <body ng-app="hurricaseIndex">
-<div class = "container">
+<div class="container">
     <md-toolbar class="md-hue-2">
         <div class="md-toolbar-tools">
-            <h2 id="title">Hurricase is cool</h2>
+            <h2 id="title">Hurricase</h2>
+            <span flex></span>
+            <md-button class="md-primary" id="toolbarButton">Cart (0)</md-button>
+            <md-button class="md-primary" id="toolbarButton">Order a Hurricase</md-button>
+            <md-button class="md-primary" id="toolbarButton">Contact Us</md-button>
         </div>
     </md-toolbar>
+
+    <md-content layout="column">
+        <md-card id="topCard" md-colors="{background: 'red-200'}">
+            <md-card-title id="cardText">
+                <div class ="infoCard" layout="column">
+                    <h1>Earphones Simplified</h1>
+                    <h3>Never worry about your headphones ever looking like this again. With the hurricase, you can keep your headphones with your phone, right where they belong.</h3>
+                </div>
+                <span flex></span>
+                <md-card-title-media>
+                    <img  ng-src="assets/images/tangled.png" class="md-card-image" alt="Washed Out">
+                </md-card-title-media>
+            </md-card-title>
+            <md-card-content layout="row" layout-align="left">
+
+            </md-card-content>
+        </md-card>
+    </md-content>
     <script type="text/javascript" src="app.js"></script>
 </div>
 </body>

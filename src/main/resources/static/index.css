@@ -1,10 +1,49 @@
 body {
     margin: 0px;
-    text-align: left;
 }
 
-#title {
+#title, #cardText {
     color: #FFFFFF;
-    align: center;
-    text-align: center
+    font-size: inherit;
+}
+
+#toolbarButton {
+    color: #FFFFFF;
+}
+
+#topCard {
+   margin-top: 100px;
+}
+
+h1 {
+   font-size: 3em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+image {
+   position: relative;
+   margin: 0px;
+}
+
+md-toolbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+container {
+    margin: 0px;
+}
+
+md-card {
+    padding: 5px;
+    margin: 20px;
+}
+
+infoCard {
+    text-align: left;
+    align: left;
 }
