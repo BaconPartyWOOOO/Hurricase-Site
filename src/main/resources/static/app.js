@@ -6,5 +6,5 @@ var app = angular.module('hurricaseIndex', [
 
 app.config(function ($mdThemingProvider) {
     $mdThemingProvider.theme('default')
-        .primaryPalette('red');
+        .primaryPalette('grey');
 });

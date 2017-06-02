@@ -4,7 +4,6 @@ body {
 
 #title, #cardText {
     color: #FFFFFF;
-    font-size: inherit;
 }
 
 #toolbarButton {
@@ -21,11 +20,6 @@ h1 {
 
 h2 {
     font-size: 3em;
-}
-
-image {
-   position: relative;
-   margin: 0px;
 }
 
 md-toolbar {

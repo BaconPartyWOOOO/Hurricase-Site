@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:margin-right="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Hurricase</title>
@@ -21,7 +21,7 @@
 <div class="container">
     <md-toolbar class="md-hue-2">
         <div class="md-toolbar-tools">
-            <h2 id="title">Hurricase</h2>
+            <img ng-src="assets/images/logo.png" alt="Washed Out">
             <span flex></span>
             <md-button class="md-primary" id="toolbarButton">Cart (0)</md-button>
             <md-button class="md-primary" id="toolbarButton">Order a Hurricase</md-button>
@@ -30,20 +30,57 @@
     </md-toolbar>
 
     <md-content layout="column">
-        <md-card id="topCard" md-colors="{background: 'red-200'}">
+        <md-card id="topCard" md-colors="{background: 'grey-500'}">
             <md-card-title id="cardText">
                 <div class ="infoCard" layout="column">
-                    <h1>Earphones Simplified</h1>
-                    <h3>Never worry about your headphones ever looking like this again. With the hurricase, you can keep your headphones with your phone, right where they belong.</h3>
+                    <h1>"Don't Get It Twisted"</h1>
+                    <h3>Never worry about your headphones ever looking like this again. With the hurricase, you can keep your headphones with your phone, right where they belong.
+                        Whenever you need to get out your earphones to make a call or to listen to some music, just pull and they're ready to plug in and go. </h3>
                 </div>
                 <span flex></span>
                 <md-card-title-media>
-                    <img  ng-src="assets/images/tangled.png" class="md-card-image" alt="Washed Out">
+                    <img hspace="10" ng-src="assets/images/tangled.png" class="md-card-image" alt="Washed Out">
                 </md-card-title-media>
             </md-card-title>
-            <md-card-content layout="row" layout-align="left">
-
-            </md-card-content>
+        </md-card>
+        <md-card md-colors="{background: 'grey-500'}">
+            <md-card-title id="cardText">
+                <div class ="infoCard" layout="column">
+                    <h1>Protected on Two Fronts</h1>
+                    <h3>Our engineering team has created a product that will not only keep your phone safe, your headphone wires will never be subjected to the twisting and pulling
+                        that comes with untangling them, thus prolonging their life.</h3>
+                </div>
+                <span flex ></span>
+                <md-card-title-media>
+                    <img hspace="10" ng-src="assets/images/frayed wires.jpg" class="md-card-image" alt="Washed Out">
+                </md-card-title-media>
+            </md-card-title>
+        </md-card>
+        <md-card md-colors="{background: 'grey-500'}">
+            <md-card-title id="cardText">
+                <div class ="infoCard" layout="column">
+                    <h1>Rock-solid Technology, Rock-solid Warranty</h1>
+                    <h3>We don't just tell your our products are built to last, we guarantee it. Every Hurricase sold comes with a 90-day money back guarantee along with a two
+                    year warranty that covers any mechanical failures of the product.</h3>
+                </div>
+                <span flex ></span>
+                <md-card-title-media>
+                    <img hspace="10" ng-src="assets/images/tangled.png" class="md-card-image" alt="Washed Out">
+                </md-card-title-media>
+            </md-card-title>
+        </md-card>
+        <md-card md-colors="{background: 'grey-500'}">
+            <md-card-title id="cardText">
+                <div class ="infoCard" layout="column">
+                    <h1>The Design Team</h1>
+                    <h3>Passion. Beauty. Efficiency. These are the traits that we have used to design all of our products. We have poured our passion into creating a beautiful product
+                    that effortlessly provides you with tangle-free headphones efficiently. Every team member stands by our product, and we hope to share our passions with you through this device.</h3>
+                </div>
+                <span flex ></span>
+                <md-card-title-media>
+                    <img hspace="10" ng-src="assets/images/companylogo.png" class="md-card-image" alt="Washed Out">
+                </md-card-title-media>
+            </md-card-title>
         </md-card>
     </md-content>
     <script type="text/javascript" src="app.js"></script>
