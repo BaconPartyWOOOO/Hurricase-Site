@@ -23,6 +23,14 @@ body {
     line-height: 40%;
 }
 
+#gridsubheading h3 {
+    font-size: 1.5em;
+}
+
+.image {
+   position: relative;
+}
+
 h1 {
    font-size: 3em;
 }
@@ -31,10 +39,14 @@ h2 {
     font-size: 3em;
 }
 
-br {
+h5 {
     display: block;
-    content: " ";
-    margin: 30;
+    font-size: 0.83em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: center;
 }
 
 md-toolbar {
@@ -64,14 +76,6 @@ md-grid-list {
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
-}
-
-#gridsubheading h3 {
-    font-size: 1.5em;
-}
-
-.image {
-   position: relative;
 }
 
 @keyframes fadein {
@@ -136,14 +140,4 @@ infoCard {
 md-divider[md-inset] {
     margin-left: 80px;
     margin-right: 80px;
-}
-
-h5 {
-    display: block;
-    font-size: 0.83em;
-    -webkit-margin-before: 1.67em;
-    -webkit-margin-after: 1.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    text-align: center;
 }
