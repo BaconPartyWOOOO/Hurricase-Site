@@ -19,6 +19,10 @@ body {
    margin-top: 20px;
 }
 
+#footer h5 {
+    line-height: 40%;
+}
+
 h1 {
    font-size: 3em;
 }
