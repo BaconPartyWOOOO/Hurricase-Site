@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    align: center;
 }
 
 #title, #cardText {
@@ -11,7 +12,11 @@ body {
 }
 
 #topCard {
-   margin-top: 100px;
+   margin-top: 80px;
+}
+
+#breakSpace {
+   margin-top: 20px;
 }
 
 h1 {
@@ -20,6 +25,12 @@ h1 {
 
 h2 {
     font-size: 3em;
+}
+
+br {
+    display: block;
+    content: " ";
+    margin: 30;
 }
 
 md-toolbar {
@@ -31,6 +42,69 @@ md-toolbar {
 md-card-image {
     width: 100%;
     height: 100%;
+}
+
+md-grid-list {
+  margin: 20px;
+}
+
+#fadein {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+#fadetext {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#gridsubheading h3 {
+    font-size: 1.5em;
+}
+
+.image {
+   position: relative;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+md-grid-tile-footer {
+    padding: 20px;
 }
 
 .layout-column {

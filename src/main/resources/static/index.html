@@ -28,9 +28,37 @@
             <md-button class="md-primary" id="toolbarButton">Contact Us</md-button>
         </div>
     </md-toolbar>
-
+    <div id ="topCard"></div>
     <md-content layout="column">
-        <md-card id="topCard" md-colors="{background: 'grey-500'}">
+        <md-grid-list id ="fadein" md-cols="2" md-gutter="20px" md-row-height="4:3">
+            <md-grid-tile md-colors="{background: 'grey-500'}">
+                <img src="assets/images/tangled.png" alt="Washed Out" layout-fill>
+                <md-grid-tile-footer layout-fill>
+                    <div id="fadetext">
+                        <h2>"Don't Get It Twisted"</h2>
+                        <div id="breakSpace"></div>
+                        <div id ="gridsubheading">
+                            <h3>Never worry about your headphones ever looking like this again. With the hurricase, you can keep your headphones with your phone, right where they belong.
+                                Whenever you need to get out your earphones to make a call or to listen to some music, just pull and they're ready to plug in and go. </h3>
+                        </div>
+                    </div>
+                </md-grid-tile-footer>
+            </md-grid-tile>
+            <md-grid-tile md-colors="{background: 'grey-500'}">
+                <img src="assets/images/frayed wires.jpg" alt="Washed Out" layout-fill>
+                <md-grid-tile-footer layout-fill>
+                    <div id="fadetext">
+                        <h2>Double Protection</h2>
+                        <div id="breakSpace"></div>
+                        <div id ="gridsubheading">
+                            <h3>Our engineers have created a product that will not only keep your phone safe, thanks to our industry-first spring loaded recoil system,
+                                your headphone wires will never be subjected to the twisting and pulling that comes with untangling them, thus prolonging their life.</h3>
+                        </div>
+                    </div>
+                </md-grid-tile-footer>
+            </md-grid-tile>
+        </md-grid-list>
+        <!-- <md-card id="topCard" md-colors="{background: 'grey-500'}">
             <md-card-title id="cardText">
                 <div class ="infoCard" layout="column">
                     <h1>"Don't Get It Twisted"</h1>
@@ -57,11 +85,11 @@
                     </div>
                 </md-card-media>
             </md-card-title>
-        </md-card>
-        <md-card md-colors="{background: 'grey-500'}">
+        </md-card>-->
+        <md-card md-colors="{background: 'grey-600'}" id ="fadein">
             <md-card-title id="cardText">
-                <div class ="infoCard" layout="column">
-                    <h1>Rock-solid Technology, Rock-solid Warranty</h1>
+                <div class ="infoCard" id="fadetext" layout="column">
+                    <h1>Rock-Solid Technology, Rock-Solid Warranty</h1>
                     <h3>We don't just tell your our products are built to last, we guarantee it. Every Hurricase sold comes with a 90-day money back guarantee along with a two
                     year warranty that covers any mechanical failures of the product.</h3>
                 </div>
@@ -72,9 +100,9 @@
                 </md-card-media>
             </md-card-title>
         </md-card>
-        <md-card md-colors="{background: 'grey-500'}">
+        <md-card md-colors="{background: 'grey-600'}" id ="fadein">
             <md-card-title id="cardText">
-                <div class ="infoCard" layout="column">
+                <div class ="infoCard" id="fadetext" layout="column">
                     <h1>The Design Team</h1>
                     <h3>Passion. Beauty. Efficiency. These are the traits that we have used to design all of our products. We have poured our passion into creating a beautiful product
                     that effortlessly provides you with tangle-free headphones efficiently. Every team member stands by our product, and we hope to share our passions with you through this device.</h3>
