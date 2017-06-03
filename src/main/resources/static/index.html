@@ -18,13 +18,13 @@
     <script src='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.3/angular-material.js'></script>
 </head>
 <body ng-app="hurricaseIndex">
-<div class="container">
+<div ng-controller="AppCtrl" class="container">
     <md-toolbar class="md-hue-2">
         <div class="md-toolbar-tools">
             <img ng-src="assets/images/logo.png">
             <span flex></span>
-            <md-button class="md-primary" id="toolbarButton">Cart (0)</md-button>
-            <md-button class="md-primary" id="toolbarButton">Order a Hurricase</md-button>
+            <md-button ng-click="showAlert($event)" class="md-primary" id="toolbarButton">Cart (0)</md-button>
+            <md-button ng-click="showConfirm($event)" class="md-primary" id="toolbarButton">Order a Hurricase</md-button>
             <md-button class="md-primary" id="toolbarButton">Contact Us</md-button>
         </div>
     </md-toolbar>
