@@ -23,7 +23,7 @@ body {
     line-height: 40%;
 }
 
-#gridsubheading h3 {
+#gridSubheading h3 {
     font-size: 1.5em;
 }
 
@@ -71,7 +71,7 @@ md-grid-list {
     -o-animation: fadein 1s; /* Opera */
 }
 
-#fadetext {
+#fadeText {
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
